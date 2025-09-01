@@ -1,0 +1,49 @@
+POST http://localhost:4000/api/admin/add-doctor
+Content-Type: multipart/form-data; boundary=----boundary123
+
+------boundary123
+Content-Disposition: form-data; name="name"
+
+Dr. John Doe
+------boundary123
+Content-Disposition: form-data; name="email"
+
+john@example.com
+------boundary123
+Content-Disposition: form-data; name="password"
+
+123456
+------boundary123
+Content-Disposition: form-data; name="speciality"
+
+Cardiology
+------boundary123
+Content-Disposition: form-data; name="degree"
+
+MBBS, MD
+------boundary123
+Content-Disposition: form-data; name="experience"
+
+10 years
+------boundary123
+Content-Disposition: form-data; name="about"
+
+Specialist in heart-related treatments.
+------boundary123
+Content-Disposition: form-data; name="fee"
+
+500
+------boundary123
+Content-Disposition: form-data; name="availability"
+
+Mon-Fri 10am-4pm
+------boundary123
+Content-Disposition: form-data; name="address"
+
+123 Main Street, City
+------boundary123
+Content-Disposition: form-data; name="image"; filename="doctor.jpg"
+Content-Type: image/jpeg
+
+< ./doctor.jpg
+------boundary123--
