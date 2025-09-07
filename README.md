@@ -48,11 +48,6 @@ A **super passionate** Rwandan **software engineer** 🤗 And a true cheese 🧀
 
 <br /><hr /><br />
 
-## License 📝
-
-This project is distributed under [MIT license](https://github.com/elyse502/prescripto/blob/main/LICENSE). Enjoy! 🎉
-
-<br /><br />
 
 
 
